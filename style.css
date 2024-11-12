@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid gray;
+    width: 260px;
+}
+#display{
+    font-size: xx-large;
+    margin: 12px;
+    width: 85%;
+    border: 3px solid gray;
+    border-radius: 2px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 150px;
+}
+.buttons{
+    cursor: pointer;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 3px solid gray;
+}
